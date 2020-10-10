@@ -15,9 +15,9 @@ import random
 commands = ["ROCK", "PAPER", "SCISSORS"]
 
 # Prompts
-cpu_wins = f"CPU Wins round!"
-player_wins = f"Player wins this round!"
-draw = f"It's a draw!"
+cpu_wins = "CPU Wins round!"
+player_wins = "Player wins this round!"
+draw = "It's a draw!"
 
 # Random CPU command choice
 cpu = commands[random.randint(0,2)]
